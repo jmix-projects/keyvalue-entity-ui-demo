@@ -2,6 +2,7 @@
 <menu-config xmlns="http://jmix.io/schema/ui/menu">
 
     <menu id="application" caption="msg://com.company.demo/menu.application" insertBefore="administration">
+        <item screen="Foo.browse" caption="msg://com.company.demo.screen.foo/fooBrowse.menu"/>
         <item screen="User.browse" caption="msg://com.company.demo.screen.user/UserBrowse.caption"/>
         <item screen="themeSettingsScreen" caption="msg://io.jmix.ui.app.themesettings/themeSettings.caption"/>
     </menu>
